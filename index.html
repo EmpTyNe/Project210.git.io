@@ -8,80 +8,8 @@
     <title>project</title>
     <link rel="stylesheet" media="all" href="//cdn.jsdelivr.net/bootstrap/3.3.7/css/bootstrap.min.css" />
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
-      
-  
-    <script type="text/x-template" id="modal-template">
-      <transition name="modal">
-        <div class="modal-mask">
-            <div class="modal-wrapper">
-                <div class="modal-container">
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=siSJkWhXQixGbnrv5bptO3GBXXr-kdi1uRlIH66u6KolIfRgu2lyf0IMDt10EWoIT8Vl5AMqEh_fPhge2vpkrA" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9sdWtvbmluYTIzLmdpdGxhYi5pby9wcm9qZWN0Lw"/></head>
 
-
-                        <div class="col-md-6 col-xs-12 col-sm-6">
-
-                            <div class="field field--name-field-block-with-form-value field--type-entity-reference field--label-hidden field--item">
-                                    <form id="contactForm" action="https://formcarry.com/s/" method="post" enctype="multipart/form-data" class="contact-message-order-support-form contact-message-form contact-form antibot popup_form" >
-                                        <!-- / <noscript>
-                                        <div class="antibot-no-js antibot-message antibot-message-warning">Вы должны включить JavaScript чтобы использовать эту форму.</div>
-                                        </noscript> -->
-                                        <button style="width:30px; height:30px; text-align: center; margin-bottom:20px;" class="modal-default-button" @click="$emit('close')">
-                                            X
-                                        </button>
-                                        <div class="field--type-string field--name-field-vashe-imya field--widget-string-textfield form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-field-vashe-imya-wrapper" id="edit-field-vashe-imya-wrapper">      
-                                            <div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-field-vashe-imya-0-value js-form-item-field-vashe-imya-0-value form-group">
-                                            <!-- <label for="edit-field-vashe-imya-0-value" class="control-label">Ваше имя</label> -->
-
-
-                                            <input class="js-text-full text-full form-text form-control"  type="text" id="edit-field-vashe-imya-0-value" name="field_vashe_imya[0][value]" value="" size="60" maxlength="255" placeholder="Ваше имя">
-                                            </div>
-                                        </div>
-                                        <div class="field--type-string field--name-field-telefon field--widget-string-textfield form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-field-telefon-wrapper" id="edit-field-telefon-wrapper">      
-                                            <div class="form-item js-form-item form-type-textfield js-form-type-textfield form-item-field-telefon-0-value js-form-item-field-telefon-0-value form-group">
-                                            <!-- <label for="edit-field-telefon-0-value" class="control-label js-form-required form-required">Телефон</label> -->
-                                            <input class="js-text-full text-full form-text required form-control" data-drupal-selector="edit-field-telefon-0-value" type="text" id="edit-field-telefon-0-value" name="field_telefon[0][value]" value="" size="60" maxlength="255" placeholder="Телефон" required="required" aria-required="true">
-                                            </div>
-                                        </div>
-                                        <div class="field--type-email field--name-field-e-mail field--widget-email-default form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-field-e-mail-wrapper" id="edit-field-e-mail-wrapper">      
-                                            <div class="form-item js-form-item form-type-email js-form-type-email form-item-field-e-mail-0-value js-form-item-field-e-mail-0-value form-group">
-                                            <!-- <label for="edit-field-e-mail-0-value" class="control-label js-form-required form-required">E-mail</label> -->
-                                                <input data-drupal-selector="edit-field-e-mail-0-value" class="form-email required form-control" type="email" id="edit-field-e-mail-0-value" name="field_e_mail[0][value]" value="" size="60" maxlength="254" placeholder="E-mail" required="required" aria-required="true">
-                                            </div>
-                                        </div>
-                                        <div class="field--type-string-long field--name-field-vash- field--widget-string-textarea form-group js-form-wrapper form-wrapper" data-drupal-selector="edit-field-vash-wrapper" id="edit-field-vash-wrapper">      
-                                            <div class="form-item js-form-item form-type-textarea js-form-type-textarea form-item-field-vash--0-value js-form-item-field-vash--0-value form-group">
-                                                <!-- <label for="edit-field-vash-0-value" class="control-label">Ваш комментарий</label>-->
-                                                <div class="form-textarea-wrapper">
-                                                    <textarea class="js-text-full text-full form-textarea form-control resize-vertical" data-drupal-selector="edit-field-vash-0-value" id="edit-field-vash-0-value" name="field_vash_[0][value]" rows="5" cols="60" placeholder="Ваш комментарий">
-
-                                                    </textarea>
-                                                </div>
-                                            </div>
-
-                                            <div class="form-item js-form-item form-type-checkbox js-form-type-checkbox form-item-fz152-agreement js-form-item-fz152-agreement checkbox">
-                                                <label for="edit-fz152-agreement" class="control-label option js-form-required form-required">
-                                                    <input required="required" data-drupal-selector="edit-fz152-agreement" class="form-checkbox required" type="checkbox" id="edit-fz152-agreement" name="fz152_agreement" value="1" aria-required="true">
-                                                    <span class="checkmark"></span>
-                                                    Отправляя заявку, я даю согласие на 
-                                                    <a href="/privacy-policy" target="_blank" rel="nofollow">обработку своих персональных данных</a>.
-                                                </label>
-                                            </div>
-                                            <div class="g-recaptcha" data-sitekey="6LdYxTcpAAAAANqoRNHO0sUQ2a5ImJboGl4Upd2B">
-
-                                            </div>
-                                            <div data-drupal-selector="edit-actions" class="form-actions form-group js-form-wrapper form-wrapper" id="edit-actions">
-                                                <button  class="button button--primary js-form-submit form-submit btn-primary btn"  id="edit-submit" type="submit" value="Свяжитесь с нами">Свяжитесь с нами</button>
-                                            </div>
-
-                                    </form>
-                            </div>
-                        </div>
-                </div>
-            </div>
-        </div>
-      </transition>
-    </script>
-</head>
 <body>
     
         <!-- навигация -->
@@ -1004,77 +932,389 @@ window.addEventListener('DOMContentLoaded', function() {
         </div>
     </article>
       <!-- Блок тарифы -->
-     
-    </section>
-    <section id="tariff">
-        <div id="app">
-            <div class="tariff__background">
-                <img src="img/D-background.svg" alt="">
-            </div>
-            <div class="container">
-                <h2 class="center_block_title">Тарифы</h2>
-            <div class="tariff__wrapper">
-                <div class="tariff__item">
-                    <div class="tariff__item-title">Стартовый</div>
-                    <ul class="tariff__item-descr">
-                        <li class="tariff__item-descr-item">Консультации и работы по SEO</li>
-                        <li class="tariff__item-descr-item">Услуги дизайнера</li>
-                        <li class="tariff__item-descr-item">Неиспользованные оплаченные часы <br>переносятся на следующий месяц</li>
-                        <li class="tariff__item-descr-item">Предоплата от 6 000 рублей в месяц</li>
-                    
-                    </ul>
-                    <button class="tariff__item-contact-btn show-modal" @click="showModal = true" >СВЯЖИТЕСЬ С НАМИ</button>
-                </div>
-                <div class="tariff__item">
-                    <div class="tariff__item-title">Бизнес</div>
-                    <ul class="tariff__item-descr">
-                        <li class="tariff__item-descr-item">Консультации и работы по SEO</li>
-                        <li class="tariff__item-descr-item">Услуги дизайнера</li>
-                        <li class="tariff__item-descr-item">Выскокое время реакции - до 2 рабочих дней</li>
-                        <li class="tariff__item-descr-item">Неиспользованные оплаченные часы не<br>переносятся на следующий месяц</li>
-                        <li class="tariff__item-descr-item">Предоплата от 30 000 рублей в месяц</li>
-                    </ul>
-                    <button class="tariff__item-contact-btn show-modal" @click="showModal = true">СВЯЖИТЕСЬ С НАМИ</button>
-                </div>
-                <div class="tariff__item">
-                    <div class="tariff__item-title">VIP</div>
-                    <ul class="tariff__item-descr">
-                        <li class="tariff__item-descr-item">Консультации и работы по SEO</li>
-                        <li class="tariff__item-descr-item">Услуги дизайнера</li>
-                        <li class="tariff__item-descr-item">МАксимальлное время реакции - в день<br>обращения</li>
-                        <li class="tariff__item-descr-item">Неиспользованные оплаченные часы не<br>переносятся на следующий месяц</li>
-                        <li class="tariff__item-descr-item">Предоплата от 270 000 рублей в месяц</li>
-                    </ul>
-                    <button class="tariff__item-contact-btn show-modal" @click="showModal = true">СВЯЖИТЕСЬ С НАМИ</button>
-                </div>
-            </div>
-            <div class="tariff__footer">
-                <p>Вам не подходят наши тарифы? Оставьте заявку и мы <br>предложим вам индивидуальные условия!</p>
-                <a href="#">ПОЛУЧИТЬ ИНДИВИДУАЛЬНЫЙ ТАРИФ</a>
+      <section id="block-tariffs" class="block block-block-content block-block-content44e135e8-5c7a-4c25-9a28-466de4b12816 clearfix">
 
+          <h2 class="block-title">Тарифы</h2>
+          
+        <div class="field field--name-body field--type-text-with-summary field--label-hidden field--item"><div class="tariffs">
+            <div class="container">
+                <div class="row row-flex tariffs-row">
+                    <div class="col-sm-4 col-xs-12 col-flex">
+                        <div class="tariff">
+                            <div class="tariff-wrapper">
+                                <div class="tariff-header">
+                                    <div class="tariff-title">Стартовый</div><br>
+                                </div>
+                                <div class="tariff-body">
+                                    <div class="tarrif-body-item">Разработка и поддержка Drupal</div>
+                                    <div class="tarrif-body-item">Консультации и работы по SEO</div>
+                                    <div class="tarrif-body-item">Услуги дизайнера</div>
+                                    <!-- div class="tarrif-body-item">Стандартное время реакции</div -->
+                                    <div class="tarrif-body-item">Неиспользованные оплаченные часы переносятся на следующий месяц</div>
+                                    <div class="tarrif-body-item">Предоплата от 6 000 рублей в месяц</div>
+                                    <div class="tarrif-body-item">ㅤ</div>
+                                    <div class="tarrif-body-item">ㅤ</div>
+                                </div>
+                                <div class="tariff-footer">
+                                    <a href="#block-podderzhkasaytovkontaktnayaforma" class="contact-form tariff-footer-btn">Свяжитесь с нами!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-flex col-xs-12">
+                        <div class="tariff">
+                            <div class="tariff-wrapper">
+                                <div class="tariff-header">
+                                    <div class="tariff-title">Бизнес</div><br>
+                                </div>
+                                <div class="tariff-body ">
+                                    <div class="tarrif-body-item">Разработка и поддержка Drupal</div>
+                                    <div class="tarrif-body-item">Консультации и работы по SEO</div>
+                                    <div class="tarrif-body-item">Услуги дизайнера</div>
+                                    <div class="tarrif-body-item">Высокое время реакции - до 2 рабочих дней</div>
+                                    <div class="tarrif-body-item">Неиспользованные оплаченные часы не переносятся</div>
+                                    <div class="tarrif-body-item">Предоплата от 30 000 рублей в месяц</div>
+                                </div>
+                                <div class="tariff-footer">
+                                    <a href="#block-podderzhkasaytovkontaktnayaforma" class="contact-form tariff-footer-btn">Свяжитесь с нами!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-flex col-xs-12">
+                        <div class="tariff">
+                            <div class="tariff-wrapper">
+                                <div class="tariff-header">
+                                    <div class="tariff-title">VIP</div><br>
+                                </div>
+                                <div class="tariff-body">
+                                    <div class="tarrif-body-item">Разработка и поддержка Drupal</div>
+                                    <div class="tarrif-body-item">Консультации и работы по SEO</div>
+                                    <div class="tarrif-body-item">Услуги дизайнера</div>
+                                    <div class="tarrif-body-item">Максимальное время реакции - в день обращения</div>
+                                    <div class="tarrif-body-item">Неиспользованные оплаченные часы не переносятся</div>
+                                    <div class="tarrif-body-item">Предоплата от 270 000 рублей в месяц</div>
+                                </div>
+                                <div class="tariff-footer">
+                                    <a href="#block-podderzhkasaytovkontaktnayaforma" class="contact-form tariff-footer-btn">Свяжитесь с нами!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="tariffs-ps">
+                            Вам не подходят наши тарифы? Оставьте заявку и мы предложим вам индивидуальные условия!
+                            <a href="#block-podderzhkasaytovkontaktnayaforma" class="contact-form tariffs-link">Получить индивидуальный тариф</a>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+    </div>
+
+      </section>
+
+            <!-- Блок команда -->
+            <section class="views-element-container container block block-views block-views-blockteam-team-new clearfix"
+                id="block-views-block-team-new">
+                <h2 class="block-title">Команда</h2>
+                <div class="form-group">
+                    <div class="view view-team view-id-team view-display-id-team_new">
+                        <div class="view-content">
+                            <div class="col-xs-6 col-sm-6 col-md-4 views-row">
+                                <div class="user-teaser">
+                                    <div class="user-teaser-photo">
+                                        <img src="IMG_2472_0.jpg" alt="img" typeof="Image" class="img-responsive" />
+                                    </div>
+                                    <div class="user-teaser-name"><a href="#" title="Профиль на drupal.org"
+                                            target="_blank">Сергей Синица </a></div>
+                                    <div class="user-teaser-post">Руководитель отдела веб-разработки, команд.тех.наук, заместитель директора</div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 views-row">
+                                <div class="user-teaser">
+                                    <div class="user-teaser-photo">
+                                        <img src="IMG_2539_0.jpg"  alt="img" typeof="Image" class="img-responsive" />
+                                    </div>
+                                    <div class="user-teaser-name"><a href="#" title="Профиль на drupal.org"
+                                            target="_blank">Роман Агабеков</a></div>
+                                    <div class="user-teaser-post">Руководитель отдела DevOPS директор </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 views-row">
+                                <div class="user-teaser">
+                                    <div class="user-teaser-photo">
+                                        <img src="IMG_2474_1.jpg" typeof="Image" alt="img" class="img-responsive" />
+                                    </div>
+                                    <div class="user-teaser-name"><a href="#" title="Профиль на drupal.org"
+                                            target="_blank">Алексей Синица </a></div>
+                                    <div class="user-teaser-post">Руководитель отдела поддержки сайтов</div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 views-row">
+                                <div class="user-teaser">
+                                    <div class="user-teaser-photo">
+                                        <img src="IMG_2522_0.jpg"  alt="img" typeof="Image" class="img-responsive" />
+                                    </div>
+                                    <div class="user-teaser-name"><a href="#" title="Профиль на drupal.org"
+                                            target="_blank">Дарья Бочкарева</a></div>
+                                    <div class="user-teaser-post">Руководитель отдела продвижения, контекстной рекламы и контент-поддержки сайтов</div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 views-row">
+                                <div class="user-teaser">
+                                    <div class="user-teaser-photo">
+                                        <img src="IMG_9971_16.jpg" alt="img" typeof="Image" class="img-responsive" />
+                                    </div>
+                                    <div class="user-teaser-name">Ирина Торкунова</div>
+                                    <div class="user-teaser-post">Менеджер по работе с клиентами
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form action = "https://drupal-coder.ru/team">
+                <button class = "btncomand" type = "submit">Вся команда</button>
+            </form>
+            <!--<a href="https://drupal-coder.ru/team" class = "comand-button">Вся команда</a>-->
+       </div>
+            </section>
+
+            <!-- Блок последние кейсы -->
+            <section class="container block block-views block-views-blockblog-block-1"
+                id="block-views-block-blog-block-1">
+                <h2 class="block-title">Последние кейсы</h2>
+                <div class="form-group">
+                    <div class="inverse view view-blog view-id-blog view-display-id-block_1">
+                        <div class="view-content">
+                            <article role="article" about="#" class="blog keys-1">
+                                <div class="keys-wrapper" style="background-image: url(9.2.bmp)">
+                                    <div class="keys-img" style="background-image: url(9.2.bmp)"><img class="img-responsive"  src="komp.jpg"></div>
+                                    <div class="keys-header">
+                                        <h2>
+                                            <a href="#"><span>Настройка кэширования данных. Апгрейд сервера. Ускорения работы сайта в 30 раз!</span></a>
+                                        </h2>
+                                        <div class="keys-date">04.05.2020</div>
+                                    </div>
+                                    <div class="keys-content">
+                                        <div
+                                            class="field field--name-body  field--label-hidden field--item">
+                                            <p>Влияние скорости загрузки страниц сайта на отказы и конверсии.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article role="article" about="#" class="blog is-promoted is-sticky keys-2">
+                                <div class="keys-wrapper" style="background-image: url(11.1.png)">
+                                <img class="img-responsive" src="kub.jpg">
+                                    <div class="keys-header">
+                                        <h2>
+                                            <a href="#"><span>Использование отчетов Ecommerce в Яндекс.Метрике</span>
+                                            </a>
+                                        </h2>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article data-history-node-id="263" role="article" about="#"
+                                class="blog is-promoted keys-1">
+                                <div class="keys-wrapper" style="background-image: url(8.3.png)">
+                            
+                                    <div class="keys-img" style="background-image: url(8.3.png)"><img class="img-responsive"  src="br.jpg"></div>
+                                    <div class="keys-header">
+                                        <h2>
+                                            <a href="#"><span> Повышение конверсии страницы с формой заявки с применением АВ-тестирования</span></a>
+                                        </h2>
+                                        <div class="keys-date">24.01.2020</div>
+                                    </div>
+                                </div>
+                            </article>
+
+
+                            <article role="article" about="#" class="blog is-promoted keys-1">
+                                <div class="keys-wrapper" style="background-image: url(7.3.png)">
+                                
+                                    <div class="keys-img" style="background-image: url(7.3.png)"
+                                    img class="img-responsive" alt="img " src="pr.jpg"></div>
+                                    <div class="keys-header">
+                                        <h2>
+                                            <a href="#"><span>Drupal 7: Ускорение времени генерации страниц интернет-магазина на 32%</span></a>
+                                        </h2>
+                                        <div class="keys-date">23.09.19</div>
+                                    </div>
+                                </div>
+                            </article>
+
+
+                            <article role="article" about="#" class="blog is-promoted keys-1 clearfix">
+                                <div class="keys-wrapper" style="background-image: url(6.2.png)">
+                                    <div class="keys-img" style="background-image: url(6.2.png)"><img class="img-responsive" alt="laptop " src="kp.jpg"></div>
+                                    <div class="keys-header">
+                                        <h2>
+                                            <a href="#"><span>Обмен товарами и заказами интернет-магазинов на Drupal 7 с 1С: Предприятие, МойСклад, Класс365  </span>
+                                            </a>
+                                        </h2>
+                                        <div class="keys-date">
+                                            22.08.2019
+                                        </div>
+                                    </div>
+                                    <div class="keys-content">
+                                        <div
+                                            class="field field--name-body  field--label-hidden field--item">
+                                            <p>Опубликован релиз модуля</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        
+                </div>
+            </section>
+
             
-            </div>
-            <modal v-if="showModal" @close="showModal = false">
-      
-               
-            </modal>
-            </div>
-        <script>
-            // register modal component
-            Vue.component("modal", {
-              template: "#modal-template"
-            });
-      
-            // start app
-            new Vue({
-              el: "#app",
-              data: {
-                showModal: false
-              }
-            });
-          </script>
-    </section>
+            <!-- Блок отзывы -->
+            <section class="views-element-container block block-views block-views-blocktestimonials-block-1"
+                id="block-views-block-testimonials-block-1">
+                <h2 class="block-title">Отзывы</h2>
+                <div class="form-group">
+                    <div class="container view view-testimonials view-id-testimonials view-display-id-block_1">
+                        <div class="view-content">
+                            <div id="slick-views-testimonials-block-1-1"
+                                class="slick slick--view--testimonials slick--view--testimonials--block-1 slick--optionset--reviews">
+                                <div id="slick-views-testimonials-block-1-1-slider" class="slick__slider">
+                                    <div class="slick__slide slide slide--0">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <img src="logo_0.png" alt="WINAMP" class="img-responsive" />
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-text">
+                                            <div class="field-content-title">Долгие поиски единственного и неповторимого мастера на многострадальный сайт , который был собран крайне некомпетентным программистом и раз в месяц стабильно грозил погибнуть ,привели меня на сайт и, в итоге, к ребятам Drupal-coder. И вот уже практически пол года как не проходит и дня, чтобы я не поудивлялась и не порадовалась своему везенью!..</div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-author">
+                                            <div class="field-content">С уважением, Наталья Сушкова руководитель отдела веб-проектов Группы компаний "Си Эль "</div>
+                                        </div>
+                                    </div>
+                                    <div class="slick__slide slide slide--1">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <img src="logo.png" alt="logo.ru"
+                                                    class="img-responsive" />
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-text">
+                                            <div class="field-content">Сергей-профессиональный, высококвалифицированный програмист с огромным опытом в ИТ. Я долгое время общался с топ_фрилансерами на веблансере и могу сказать, что С СЕРГЕЕМ ОНИ И РЯДОМ НЕ ВАЛЯЛИСЬ. РАботаем с СЕргеем до сих пор. С ним приятно работать, я доволен.
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-author">
+                                            <div class="field-content"> Сергей Чепурко </div>
+                                        </div>
+                                    </div>
+                                    <div class="slick__slide slide slide--2">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <img src="farbors_ru.jpg" alt="farbors.ru"
+                                                    class="img-responsive" />
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-text">
+                                            <div class="field-content"> Выражаю глубочайшую благодарность команде специалистов компании "Инитлаб" ...
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-author">
+                                            <div class="field-content">Леонид Александрович Ледовский </div>
+                                        </div>
+                                    </div>
+                                    <div class="slick__slide slide slide--3">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <img src="nashagazeta_ch.png" alt="nashagazeta.ch"
+                                                    class="img-responsive" />
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-text">
+                                            <div class="field-content"> Без громких слов и обещаний, ребята просто спокойно и качественно делают работу, быстро реагируют, находят решения, предлагают конкретные варианты улучшения функционирования сайта и сами их оперативно осуществляют.
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-author">
+                                            <div class="field-content"> Надежда Сикорская, Женева, Швейцария</div>
+                                        </div>
+                                    </div>
+                                    <div class="slick__slide slide slide--4">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <img src="logo-estee.png" alt="estee-design.ru"
+                                                    class="img-responsive" />
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-text">
+                                            <div class="field-content"> Четкая и понятная система коммуникации, достаточно оперативное решение по задачам. Дали рекомендации по улучшению програмной части сайта, исправили ряд скрытых ошибок. Не могу не порекомендовать Initlab другим людям-действительно компания профессионалов.
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-author">
+                                            <div class="field-content">Кузин Вадим</div>
+                                        </div>
+                                    </div>
+                                    <div class="slick__slide slide slide--5">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <img src="cableman_ru.png" alt="cableman" class="img-responsive" />
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-text">
+                                            <div class="field-content"> Впервые в моей деловой практике я чувствую надежно прикрытыми важнейшие задачи в жизни электронного СМИ, при том, что мои коллеги работают за сотни километров от нас и мы никогда не встречались лично.
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-author">
+                                            <div class="field-content"> Константин Бельский, зам. генерального директора портала Кабельщик.ру</div>
+                                        </div>
+                                    </div>
+                                    <div class="slick__slide slide slide--6">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <img src="logo_2.png" alt="www.serebro.ag" class="img-responsive" />
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-text">
+                                            <div class="field-content">От работы с командой Initlab всегда можно рассчитывать на быструю и толковую помощь, поддержку, совет. Только самые исренние благодарности и рекомендации! Спасибо! )
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-author">
+                                            <div class="field-content"> С уважением, Владислав, Serebro.Ag</div>
+                                        </div>
+                                    </div>
+                                    <div class="slick__slide slide slide--7">
+                                        <div class="views-field views-field-field-project-logo">
+                                            <div class="field-content">
+                                                <img src="logo.png" alt="personal-writer.com"
+                                                    class="img-responsive" />
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-text">
+                                            <div class="field-content"> Мы очень благодарны, что удалось найти настолько компетентных ребя! )
+                                            </div>
+                                        </div>
+                                        <div class="views-field views-field-field-report-author">
+                                            <div class="field-content">Дмитрий Новиков.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                               <nav class="slick__arrow">
+                                    <div class="slick__arrow-wrapper">
+                                        <button class="slick-prev slick-arrow slprev" aria-label="Previous" type="button">Previous</button>
+                                            <span class="slick-slide-num"></span>
+                                        <button type="button" class="slick-next slick-arrow slnext" aria-label="Next" role="button">Next</button>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <!-- Блок с нами работают -->
             <!-- Требует доработку!!!! -->
