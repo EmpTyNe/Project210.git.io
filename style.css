@@ -4619,32 +4619,22 @@ height: 400px;
      opacity: .25;
      
   }
+  @media (min-width: 991px)
+{
   .tariff__background
     {
         left: 1000px;
     }
-    .container1 {
-        padding: 0 10px;
-        margin: 0 auto;
-    }@media (min-width: 991px)
-    {
-    
-    .container1 
-    {
-        width: 1100px;
-        margin: 0 auto;
-    }
-}
-    .center_block_title {
-        text-align: center;
-        margin-bottom: 20px;
-    }@media (min-width: 991px)
-    {
     .center_block_title {
         font-size: 30px;
         margin-bottom: 40px;
     }
+}
+ .center_block_title {
+        text-align: center;
+        margin-bottom: 20px;
     }
+    
 .tariff__item
 {
     border-radius: 5px;
@@ -4664,7 +4654,12 @@ height: 400px;
 -moz-box-shadow: 0px 0px 58px 0px rgba(34, 60, 80, 0.29);
 box-shadow: 0px 0px 58px 0px rgba(34, 60, 80, 0.29);
 }
-
+@media (min-width: 891px)
+{ .tariff__item
+    {
+        width: 27%;
+    }
+}
 .tariff__item-title
 {
     position: relative; 
