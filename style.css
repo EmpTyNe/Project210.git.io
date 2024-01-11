@@ -1907,6 +1907,27 @@
         .block-main-btn {
             margin-bottom: 55px;
         }
+        .block-form-title, .competencies h2, .advantages h2, .expertise h2, #block-tariffs .block-title, #block-views-block-team-new .block-title, #block-views-block-our-clients .block-title, #block-views-block-testimonials-block-1 .block-title, #block-views-block-blog-block-1 .block-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+            margin-top: initial;
+        }
+        .block-form-wrapper {
+            margin: 0 auto 30px;
+            text-align: center;
+        }
+        .block-form-contacts ul li a {
+            font-size: 14px;
+        }
+        .block-form-contacts .block-form-phone a {
+            font-size: 24px;
+        }
+        .field--form-value form {
+            margin: auto;
+        }
+        footer {
+            background-size: cover, 165px, 140px;
+        }
        
         .competency {
             margin-bottom: 30px;
@@ -2130,6 +2151,27 @@
         }
         .block-main-btn {
             margin-bottom: 55px;
+        }
+        .block-form-title, .competencies h2, .advantages h2, .expertise h2, #block-tariffs .block-title, #block-views-block-team-new .block-title, #block-views-block-our-clients .block-title, #block-views-block-testimonials-block-1 .block-title, #block-views-block-blog-block-1 .block-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+            margin-top: initial;
+        }
+        .block-form-wrapper {
+            margin: 0 auto 30px;
+            text-align: center;
+        }
+        .block-form-contacts ul li a {
+            font-size: 14px;
+        }
+        .block-form-contacts .block-form-phone a {
+            font-size: 24px;
+        }
+        .field--form-value form {
+            margin: auto;
+        }
+        footer {
+            background-size: cover, 165px, 140px;
         }
         
         .competency {
