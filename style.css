@@ -22,6 +22,7 @@
         touch-action: pan-y;
         -webkit-tap-highlight-color: transparent;
     }
+    
     .slick-list {
         position: relative;
         display: block;
@@ -2486,6 +2487,7 @@ height: 400px;
     .col-xs-6 {
         width: 50%;
     }
+    
     @media (min-width:768px) {
         .col-sm-3, .col-sm-4, .col-sm-6 {
             float: left;
@@ -4421,6 +4423,7 @@ height: 400px;
         .competency-body br {
             display: none;
         }
+       
     }
     @media (max-width:600px) {
         .block-main h1 {
@@ -4434,6 +4437,41 @@ height: 400px;
             text-align: justify;
         }
     }
+}
+.btncomand:hover {
+	transition: all 0.2s;
+	box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+}
+.btncomand:active {
+	background-color: #e4dddd;
+}
+.btncomand {
+	display: inline-block;	
+	box-sizing: border-box;
+	padding: 0 25px;
+	margin: 0 15px 15px 0;
+	outline: none;
+	border: 1px solid #fff;
+	border-radius: 50px;
+	height: 60px;
+    
+	line-height: 60px;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #444;
+	background-color: #fff;
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;  
+	vertical-align: top;
+	transition: box-shadow 0.2s;
+    position: absolute;
+   
+  left: 50%;
+  
 }
 
 @font-face {
