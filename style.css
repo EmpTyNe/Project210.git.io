@@ -2157,8 +2157,15 @@
         .competency-body br {
             display: none;
         }
+        
     }
     
+    
+}
+.comand-button{
+    height: 50px;
+position: relative;
+border: 1px solid white;
 }
 
 
