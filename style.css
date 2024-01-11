@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
 .dropbtn {
     width: 100px;
     height: 25px;
@@ -50,7 +52,6 @@ color: black;
 height: 400px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
 .social-links-wrapper {
     display: none!important;
